@@ -15,7 +15,8 @@ function Work(props) {
           rel='noreferrer'>{name}</a>
           <a href={repoLink}
           target='_blank'
-          rel='noreferrer'>GitHub Repo</a>
+          rel='noreferrer'
+          className='github-link'>GitHub Repo</a>
         </div>
       </div>
     </div>

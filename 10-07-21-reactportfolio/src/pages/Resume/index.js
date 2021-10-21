@@ -1,6 +1,6 @@
 import React from 'react';
 // Add Resume PDF to assets and import as 
-// import resumePDF from ' ../../assets/resume
+// import resumePDF from ' ../../assets/resume' 
 
 
 function  Resume() {

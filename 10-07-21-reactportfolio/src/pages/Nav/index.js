@@ -6,13 +6,12 @@ function  Nav(props) {
 
   return (
   <>
-    <header>
+    <header className='flex-row space-between px-1'>
       <h2>
         <Link to='/10-07-21-reactportfolio'>CLivingston</Link>
       </h2>
-    </header>
     <nav>
-      <ul>
+      <ul className='flex-row'>
         <li className={`${currentPage === 'about' && 'nav-active'}`}>
           <span onClick={()=> setCurrentPage('about')}>
             <Link to='/10-07-21-reactportfolio/'>About Me</Link>
@@ -35,6 +34,8 @@ function  Nav(props) {
         </li>
       </ul>
     </nav>
+   </header>
+
     </>
   )
 }

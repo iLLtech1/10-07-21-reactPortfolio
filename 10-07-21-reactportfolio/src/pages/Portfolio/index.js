@@ -12,6 +12,36 @@ function Portfolio(props) {
       liveLink= 'https://www.github.com'
       projectImage={illTechLogo1}
       className='work-item'/>
+        <Work
+          name='iLL Tech Logo'
+          repoLink='https://www.github.com'
+          liveLink='https://www.github.com'
+          projectImage={illTechLogo1}
+          className='work-item' />
+        <Work
+          name='iLL Tech Logo'
+          repoLink='https://www.github.com'
+          liveLink='https://www.github.com'
+          projectImage={illTechLogo1}
+          className='work-item' />
+        <Work
+          name='iLL Tech Logo'
+          repoLink='https://www.github.com'
+          liveLink='https://www.github.com'
+          projectImage={illTechLogo1}
+          className='work-item' />
+        <Work
+          name='iLL Tech Logo'
+          repoLink='https://www.github.com'
+          liveLink='https://www.github.com'
+          projectImage={illTechLogo1}
+          className='work-item' />
+        <Work
+          name='iLL Tech Logo'
+          repoLink='https://www.github.com'
+          liveLink='https://www.github.com'
+          projectImage={illTechLogo1}
+          className='work-item' />
     </div>
     </>
   )
