@@ -10,6 +10,7 @@ import Nav from './pages/Nav';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 const users = ['Chris L', 'iLLtech', 'The', 'Cutter']
 
@@ -35,6 +36,7 @@ const App = () => {
             <Resume />
           </Route>
          </Switch>
+         <Footer />
        </div>
     </Router>
   )

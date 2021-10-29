@@ -7,9 +7,9 @@ function Portfolio(props) {
     <>
     <div className='portfolioContainer'>
       <Work
-      name='iLL Tech Logo'
-      repoLink='https://www.github.com'
-      liveLink= 'https://www.github.com'
+      // name='iLL Tech Logo'
+      // repoLink='https://www.github.com'
+      // liveLink= 'https://www.github.com'
       projectImage={illTechLogo1}
       className='work-item'/>
         <Work

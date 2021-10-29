@@ -28,7 +28,7 @@ header nav {
 }
 
 header h2 a {
-  color: black;
+  color: cornflowerblue;
 }
 
 header h2 {
@@ -36,7 +36,7 @@ header h2 {
 }
 
 .nav-active {
-  color: purple;
+  background-color: black ;
   text-decoration: underline;
 }
 
@@ -56,11 +56,13 @@ li {
 nav li {
   cursor: pointer;
   margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 header nav ul li a {
   text-decoration: none;
-  color: black
+  color: cornflowerblue
 }
 
 #works {
@@ -77,7 +79,6 @@ header nav ul li a {
   position: relative;
 }
 
-.worksContainer {}
 
 .linkContainer {
   top: 50px;
@@ -111,7 +112,7 @@ header nav ul li a {
 }
 
 .github-link:hover, .projectName:hover {
-  background-color: lightblue;
+  background-color: cornflowerblue;
   border-radius: 20px;
   transition: .8s;
   text-decoration: underline;
@@ -125,7 +126,7 @@ header nav ul li a {
 }
 
 .resumeSection {
-  color: orange;
+  color: cornflowerblue;
   margin-top: 30px;
   margin-bottom: 200px;
   background-color: black;
@@ -139,7 +140,29 @@ header nav ul li a {
 .resumeLink {
   background-color: blue;
   padding: 5px;
-  border: solid orange 3px;
+  border: solid cornflowerblue 3px;
   border-radius: 20px;
   transition: .5s
+}
+
+/* Footer Styling */
+
+footer {
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer ul {
+  width: 100%;
+}
+
+.footerItem {
+  margin-left: 20%;
+  display: inline-block;
+}
+
+.footerLink {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: cornflowerblue;
 }
